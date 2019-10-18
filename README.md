@@ -8,7 +8,7 @@
 
 Installation can be done through pip. You must have python version >= 3.6.
 
-	pip install count_dict
+	pip install count-dict
 
 ## Usage
 
