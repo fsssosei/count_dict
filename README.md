@@ -23,18 +23,18 @@ or
 Example:
 
 	>>> accumulated = count_dict()
-  >>> accumulated['x'] += 9
-  dict_items([('x', 9)])
+	>>> accumulated['x'] += 9
+	dict_items([('x', 9)])
 
 
-  >>> accumulated = count_dict(10)
-  >>> accumulated['x'] += 9
-  >>> accumulated.items()
-  dict_items([('x', 19)])
+	>>> accumulated = count_dict(10)
+	>>> accumulated['x'] += 9
+	>>> accumulated.items()
+	dict_items([('x', 19)])
 
 
-  >>> accumulated = defaultdict(count_dict)
-  >>> accumulated['x']['y'] += 9
-  >>> {'x': dict(accumulated['x'])}
-  {'x': {'y': 9}}
+	>>> accumulated = defaultdict(count_dict)
+	>>> accumulated['x']['y'] += 9
+	>>> {'x': dict(accumulated['x'])}
+	{'x': {'y': 9}}
 
