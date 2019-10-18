@@ -38,3 +38,8 @@ Example:
 	>>> {'x': dict(accumulated['x'])}
 	{'x': {'y': 9}}
 
+
+	>>> accumulated = defaultdict(count_dict(10))
+	>>> accumulated['x']['y'] += 9
+	>>> {'x': dict(accumulated['x'])}
+	{'x': {'y': 19}}
