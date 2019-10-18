@@ -37,3 +37,4 @@ Example:
   >>> accumulated['x']['y'] += 9
   >>> {'x': dict(accumulated['x'])}
   {'x': {'y': 9}}
+
