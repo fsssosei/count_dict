@@ -34,7 +34,7 @@ setup(
     keywords=['count', 'dictionary'],
     python_requires='>=3.6',
     classifiers=[
-        'Development Status :: 5 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'License :: OSI Approved :: GNU Affero General Public License v3',
         'Programming Language :: Python :: 3.6',
     ],
