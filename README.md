@@ -36,6 +36,7 @@ Example:
 
 	>>> accumulated = count_dict()
 	>>> accumulated['x'] += 9
+	>>> accumulated.items()
 	dict_items([('x', 9)])
 
 
