@@ -1,5 +1,8 @@
 # count_dict
 
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/fsssosei/count_dict.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/fsssosei/count_dict/context:python)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bf34f8d12be84b4492a5a3709df0aae5)](https://www.codacy.com/manual/fsssosei/count_dict?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fsssosei/count_dict&amp;utm_campaign=Badge_Grade)
+
 *This is a Python package for count dictionaries.*
 
 *Welcome to complete the documentation.*
