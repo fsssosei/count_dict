@@ -27,10 +27,6 @@ Installation can be done through pip. You must have python version >= 3.6.
 The statement to import the package:
 
 	from count_dict_package import count_dict
-
-or
-
-	from count_dict_package import *
 	
 Example:
 
