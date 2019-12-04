@@ -18,7 +18,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 from collections import defaultdict
 
-__all__: list = ['count_dict']
+__all__ = ['count_dict']
 
 class count_dict(defaultdict):
     '''
@@ -46,7 +46,7 @@ class count_dict(defaultdict):
         >>> {'x': dict(accumulated['x'])}
         {'x': {'y': 19}}
     '''
-    version = '1.0.2'
+    version = '1.0.3'
     
     def __set_initial_value(self):
         return self.initial_value
