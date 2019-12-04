@@ -18,7 +18,7 @@
 
 ## Installation
 
-Installation can be done through pip. You must have python version >= 3.6.
+Installation can be done through pip. You must have python version >= 3.7
 
 	pip install count-dict
 
