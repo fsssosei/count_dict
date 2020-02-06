@@ -1,6 +1,6 @@
 '''
 count_dict - This is a count the dictionary package.
-Copyright (C) 2019  sosei
+Copyright (C) 2019-2020  sosei
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
@@ -23,7 +23,7 @@ with open("README.md", encoding='utf-8') as fh:
 
 setup(
     name='count_dict',
-    version='1.0.3',
+    version='1.1.0',
     description='Count dictionary package in python.',
     long_description=long_description,
     long_description_content_type='text/markdown',
