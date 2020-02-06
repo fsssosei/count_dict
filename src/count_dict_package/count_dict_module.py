@@ -1,6 +1,6 @@
 '''
 count_dict - This is a count the dictionary package.
-Copyright (C) 2019  sosei
+Copyright (C) 2019-2020  sosei
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
@@ -46,14 +46,14 @@ class count_dict(defaultdict):
         >>> {'x': dict(accumulated['x'])}
         {'x': {'y': 19}}
     '''
-    version = '1.0.3'
+    version = '1.1.0'
     
     def __set_initial_value(self):
         return self.initial_value
     
     def __init__(self, initial_value:int = 0):
-        if not isinstance(initial_value, int):
-            raise TypeError(f"must be 'int', not '{initial_value.__class__.__name__}'")
+        if not isinstance(initial_value, (int, float)):
+            raise TypeError(f"must be 'int' or 'float', not '{initial_value.__class__.__name__}'")
         self.initial_value = initial_value
         self.default_factory = self.__set_initial_value
     
