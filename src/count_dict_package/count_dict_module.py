@@ -46,7 +46,8 @@ class count_dict(defaultdict):
         >>> {'x': dict(accumulated['x'])}
         {'x': {'y': 19}}
     '''
-    version = '1.1.0'
+    
+    version = '1.1.1'
     
     def __set_initial_value(self):
         return self.initial_value
