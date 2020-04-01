@@ -14,7 +14,6 @@
 
 *This is a Python package for count dictionaries.*
 
-*Welcome to complete the documentation.*
 
 ## Installation
 
